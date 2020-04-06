@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: crm-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/jabranemohamed/crm-configuration
+          username: jabranemohamed
+          password: Jabraneif5
+          clone-on-start: true
+          search-paths: users-ws
